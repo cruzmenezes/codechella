@@ -61,6 +61,13 @@
 		</dependency>
 	</dependencies>
 
+	<dependency>
+		<groupId>io.netty</groupId>
+		<artifactId>netty-all</artifactId>
+		<version>4.1.122.Final</version> <!-- versão que está gerando o aviso -->
+	</dependency>
+
+
 	<build>
 		<plugins>
 			<plugin>
