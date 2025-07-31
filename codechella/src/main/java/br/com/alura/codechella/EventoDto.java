@@ -10,6 +10,6 @@ public record EventoDto(Long id,
 
     public static EventoDto toDto (Evento evento){
         return new EventoDto(evento.getId(), evento.getTipo(), evento.getNome(),
-                evento.getDta(), evento.getDescricao));
+                evento.getDta(), evento.getDescricao);
     }
 }
