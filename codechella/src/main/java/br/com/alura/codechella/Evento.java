@@ -13,6 +13,7 @@ import java.time.LocalDate;
 @Table
 public class Evento {
 
+    public String getDescricao;
     @Getter
     @Setter
 
@@ -23,4 +24,13 @@ public class Evento {
     private LocalDate data;
     private String descricao;
 
+    public LocalDate getDta() {
+    }
+
+    public TipoEvento getTipo() {
+    }
+
+    public String getNome() {
+        return nome;
+    }
 }

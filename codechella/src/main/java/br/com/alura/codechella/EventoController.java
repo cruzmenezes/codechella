@@ -15,12 +15,12 @@ import java.awt.*;
 public class EventoController {
 
     @Autowired
-    private EventoRepositary repositary;
+    private EventoService servico;
 
 
     @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)
-    public Flux<Evento> obterTodos(){
-        return repositary.findAll();
+    public Flux<EventoDto> obterTodos(){
+        return servico.obterTodos();
     }
 
 }
