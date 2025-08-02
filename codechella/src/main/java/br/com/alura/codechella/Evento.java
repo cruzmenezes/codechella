@@ -21,6 +21,7 @@ public class Evento {
     private Long id;
     private TipoEvento tipo;
     private String nome;
+    private String sobreNome;
     private LocalDate data;
     private String descricao;
 
@@ -32,5 +33,11 @@ public class Evento {
 
     public String getNome() {
         return nome;
+    }
+
+    public Object getDescricao() {
+    }
+
+    public Object getsobreNome() {
     }
 }
